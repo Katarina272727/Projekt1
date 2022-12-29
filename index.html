@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Фитнес">
+    <meta name="keywords" content="Фитнес, тренениг, спорт, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Фитнес | Сайт</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://wa.me/77472326191?text=Я%20хотел(а)%20бы%20записаться" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <nav class="mainmenu mobile-menu">
+                    <ul>
+                      <li class="nav-item">
+                         <a class="nav-link" href="#schedule">Тренировки</a>
+                      </li>
+                      <li class="nav-item">
+                         <a class="nav-link" href="#trainers">Тренеры</a>
+                      </li>
+                      <li class="nav-item">
+                         <a class="nav-link" href="#contacts">Контакты</a>
+                      </li>
+                    </ul>
+                </nav>
+                <a href="#contactForm" class="primarynew-btn signup-btn" data-toggle="modal">Записаться</a>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+        <div id="contactForm" class="modal fade">
+          <div class="modal-dialog contact-modal">
+            <div class="modal-content">
+                <div class="container">
+                    <form action="" id="contactForm">
+                        <div class="alert">Your message sent</div>
+            
+                        <div class="inputBox">
+                            <input type="text" id="name" placeholder="Your name...." />
+                        </div>
+            
+                        <div class="inputBox">
+                            <input type="email" id="emailid" placeholder="Your Email....." />
+                        </div>
+            
+                        <div class="inputBox">
+                            <textarea id="msgContent" cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+            
+                        <div class="inputBox">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+                <script src="./regist.js"></script>
+
+              
+            </div>
+          </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero-section set-bg" data-setbg="img/hero-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="hero-text">
+                        <span>Тренировки</span>
+                        <h1>Оздоровительные тренировки онлайн </h1>
+                        <p>Улучшайте свое состояние здоровья, не выходя из дома<br /> Онлайн</p>
+                        <a href="https://wa.me/77472326191?text=Я%20хотел(а)%20бы%20записаться" class="primary-btn">Попробовать бесплатно</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Begin -->
+    <section id="schedule" class="about-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-pic">
+                        <img width="100" height="600" src="fontr2.jpg" alt="">
+                        <a href="trenirovka.mp4" class="play-btn video-popup">
+                            <img src="img/play.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <h2>О наших тренировках</h2>
+                        <p class="first-para">Занятия рассчитаны на разные уровни травм и физической подгтовки. Продложительность занятий от 15 до 60 минут. 
+                            Все тренировки разработаны так, чтобы вы могли заниматься без допоплнительного оборудования в домашних условиях.
+                            <br>
+                            
+                          </p>
+                          
+                        <p class="second-para">
+                            Попробуйте первый бесплатный курс по болях в спине, прямо сейчас.
+
+                        </p>
+                    
+                        <a href="#" class="primary-btn">Записаться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Services Section Begin -->
+    <section class="services-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="services-pic">
+                        <img src="img/services/service-pic.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="service-items">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="services-item bg-gray">
+                                    <img src="img/services/service-icon-1.png" alt="">
+                                    <h4>Тренировки онлайн</h4>
+                                    <p>Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient
+                                        montes.</p>
+                                </div>
+                                <div class="services-item bg-gray pd-b">
+                                    <img src="img/services/service-icon-3.png" alt="">
+                                    <h4>Экономия времени</h4>
+                                    <p>Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient
+                                        montes.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="services-item">
+                                    <img src="img/services/service-icon-2.png" alt="">
+                                    <h4>Обратная связь</h4>
+                                    <p>Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient
+                                        montes.</p>
+                                </div>
+                                <div class="services-item pd-b">
+                                    <img src="img/services/service-icon-4.png" alt="">
+                                    <h4>Любая локация</h4>
+                                    <p>Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient
+                                        montes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Classes Section Begin -->
+    <section class="classes-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>УРОКИ</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row classes-slider owl-carousel">
+                <div class="col-lg-4">
+                    <div class="single-class-item set-bg" data-setbg="img/classes/classes-1.jpg">
+                        <div class="si-text">
+                            <h4>Спорт</h4>
+                            <span><i class="fa fa-user"></i> Тренер</span>
+                        </div>
+                    </div>
+                    <div class="single-class-item set-bg" data-setbg="img/classes/classes-4.jpg">
+                        <div class="si-text">
+                            <h4>Спорт</h4>
+                            <span><i class="fa fa-user"></i> Тренер</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-class-item set-bg" data-setbg="img/classes/classes-2.jpg">
+                        <div class="si-text">
+                            <h4>Спорт</h4>
+                            <span><i class="fa fa-user"></i> Тренер</span>
+                        </div>
+                    </div>
+                    <div class="single-class-item set-bg" data-setbg="img/classes/classes-5.jpg">
+                        <div class="si-text">
+                            <h4>Спорт</h4>
+                            <span><i class="fa fa-user"></i> Тренер</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-class-item set-bg" data-setbg="img/classes/classes-3.jpg">
+                        <div class="si-text">
+                            <h4>Спорт</h4>
+                            <span><i class="fa fa-user"></i> Тренер</span>
+                        </div>
+                    </div>
+                    <div class="single-class-item set-bg" data-setbg="img/classes/classes-6.jpg">
+                        <div class="si-text">
+                            <h4>Спорт</h4>
+                            <span><i class="fa fa-user"></i> Тренер</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-class-item set-bg" data-setbg="img/classes/classes-7.jpg">
+                        <div class="si-text">
+                            <h4>Спорт</h4>
+                            <span><i class="fa fa-user"></i> Тренер</span>
+                        </div>
+                    </div>
+                    <div class="single-class-item set-bg" data-setbg="img/classes/classes-8.jpg">
+                        <div class="si-text">
+                            <h4>Спорт</h4>
+                            <span><i class="fa fa-user"></i> Тренер</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Classes Section End -->
+
+    <!-- Trainer Section Begin -->
+    <section id="trainers" class="trainer-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>ТРЕНЕРЫ</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-trainer-item">
+                        <img src="img/trainer/trainer-1.jpg" alt="">
+                        <div class="trainer-text">
+                            <h5>Нурумжан Тимур</h5>
+                            <span>Тренер оздоровительной гимнастики</span>
+                            <p>+7 700 689 8457</p>
+                            <div class="trainer-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-vk"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-trainer-item">
+                        <img src="img/trainer/trainer-2.jpg" alt="">
+                        <div class="trainer-text">
+                            <h5>Грищенко Сергей Андреевич</h5>
+                            <span>Тренер по укреплению тела</span>
+                            <p>non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                                +7 700 691 10 65</p>
+                            <div class="trainer-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-vk"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-trainer-item">
+                        <img src="img/trainer/trainer-3.jpg" alt="">
+                        <div class="trainer-text">
+                            <h5>Кременский Тимур</h5>
+                            <span>Тренер</span>
+                            <p>+ 420 728 423 005</p>
+                            <div class="trainer-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="https://instagram.com/timur_kreminskiy?igshid=ZjA0NjI3M2I="><i class="fa fa-instagram"></i></a> 
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-vk"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Trainer Section End -->
+
+    <!-- Membership Section Begin -->
+    <section class="membership-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>ПЛАНЫ</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="membership-item">
+                        <div class="mi-title">
+                            <h4>Базовый</h4>
+                            <div class="triangle"></div>
+                        </div>
+                        <h2 class="mi-price">$17<span>/месяц</span></h2>
+                        <ul>
+                          <li>
+                              <p>Колво</p>
+                              <span>12 месяцев</span>
+                          </li>
+                          <li>
+                              <p>Тренер</p>
+                              <span>00 человек</span>
+                          </li>
+                          <li>
+                              <p>Людей</p>
+                              <span>01 человек</span>
+                          </li>
+                          <li>
+                              <p>Посещений</p>
+                              <span>Безлимит</span>
+                          </li>
+                        </ul>
+                        <a href="#" class="primary-btn membership-btn">Начать</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="membership-item">
+                        <div class="mi-title">
+                            <h4>Стандарт</h4>
+                            <div class="triangle"></div>
+                        </div>
+                        <h2 class="mi-price">$57<span>/ 6 месяцев</span></h2>
+                        <ul>
+                          <li>
+                              <p>Колво</p>
+                              <span>12 месяцев</span>
+                          </li>
+                          <li>
+                              <p>Тренер</p>
+                              <span>00 человек</span>
+                          </li>
+                          <li>
+                              <p>Людей</p>
+                              <span>01 человек</span>
+                          </li>
+                          <li>
+                              <p>Посещений</p>
+                              <span>Безлимит</span>
+                          </li>
+                        </ul>
+                        <a href="#" class="primary-btn membership-btn">Начать</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="membership-item">
+                        <div class="mi-title">
+                            <h4>Премиум</h4>
+                            <div class="triangle"></div>
+                        </div>
+                        <h2 class="mi-price">$98<span>/12 месяцев</span></h2>
+                        <ul>
+                          <li>
+                              <p>Колво</p>
+                              <span>12 месяцев</span>
+                          </li>
+                          <li>
+                              <p>Тренер</p>
+                              <span>00 человек</span>
+                          </li>
+                          <li>
+                              <p>Людей</p>
+                              <span>01 человек</span>
+                          </li>
+                          <li>
+                              <p>Посещений</p>
+                              <span>Безлимит</span>
+                          </li>
+                        </ul>
+                        <a href="#" class="primary-btn membership-btn">Начать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Membership Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer id="contacts" class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contact-option">
+                        <span>Телефон</span>
+                        <p>+7 747 232 6191 
+                            <br>
+                           +7 705 743 2539</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-option">
+                        <span></span>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-option">
+                        <span>Email</span>
+                        <p>zdorovieweb@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe-option set-bg" data-setbg="img/footer-signup.jpg">
+                <div class="so-text">
+                    <h4>Подписаться</h4>
+                    <p>Рассылка </p>
+                </div>
+                <form action="#" class="subscribe-form">
+                    <input type="text" placeholder="Почта">
+                    <button type="submit"><i class="fa fa-send"></i></button>
+                </form>
+            </div>
+            <div class="copyright-text">
+               
+                <div class="footer-social">
+                    <a href="https://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://vk.com/"><i class="fa fa-vk"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
